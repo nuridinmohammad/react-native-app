@@ -16,7 +16,7 @@ export default function App() {
   return (
     <View style={{ flex: 1, padding: 20 }}>
       <Text style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 20 }}>
-        Todo App
+        Todolist App
       </Text>
       <TextInput
         value={newTodo}
