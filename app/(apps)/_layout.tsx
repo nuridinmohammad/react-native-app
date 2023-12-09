@@ -23,10 +23,10 @@ export default function TabLayout() {
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
       }}>
       <Tabs.Screen
-        name="index"
+        name="Home"
         options={{
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Home',
+          tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
               <Pressable>
@@ -44,10 +44,17 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="todo-app"
+        name="TodoApp"
         options={{
           title: 'Todo App',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="pencil-square-o" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="StickerSmash"
+        options={{
+          title: 'StickerSmash',
+          tabBarIcon: ({ color }) => <TabBarIcon name="smile-o" color={color} />,
         }}
       />
     </Tabs>
