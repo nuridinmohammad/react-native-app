@@ -15,7 +15,9 @@
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
     "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-native-community/netinfo": "9.3.10",
     "@react-navigation/native": "^6.0.2",
+    "axios": "^1.6.2",
     "expo": "~49.0.15",
     "expo-font": "~11.4.0",
     "expo-image-picker": "~14.3.2",
@@ -35,6 +37,7 @@
     "react-native-screens": "~3.22.0",
     "react-native-view-shot": "3.7.0",
     "react-native-web": "~0.19.6",
+    "react-query": "^3.39.3",
     "zustand": "^4.4.7"
   },
   "devDependencies": {
